@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="RegText">Registration</string>
+    <string name="EnterLogin" />
+    <string name="EnterPassword" />
+    <string name="CancelButton">Cancel</string>
+    <string name="OkButton">Ok</string>
+    <string name="RegButton">Reg</string>
+    <string name="AuthText">Authorization</string>
+    <string name="ExitButton">Exit</string>
+    <string name="NoteListTxt">Note List</string>
+    <string name="IDTxt">ID</string>
+    <string name="NoteNameTxt">Note Name</string>
+    <string name="AddButton">Add</string>
+    <string name="NoteTxT">Note</string>
+    <string name="TitleTxt">Title</string>
+    <string name="EnterTitle">Title</string>
+    <string name="EnterNoteContext">Context</string>
+    <string name="CloseButton">Close</string>
+    <string name="SaveButton">Save</string>
+    <string name="DeleteButton">Delete</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="179dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:text="@string/RegText"
+            android:textSize="34sp"
+            tools:text="@string/RegText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Login" />
+
+        <EditText
+            android:id="@+id/LoginReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/EnterLogin"
+            tools:text="@string/EnterLogin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="34dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Password" />
+
+        <EditText
+            android:id="@+id/PassReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="@string/EnterPassword"
+            tools:text="@string/EnterPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/RegBut"
+            android:layout_width="26dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onCancelClick"
+            android:text="@string/CancelButton"
+            tools:text="@string/CancelButton" />
+
+        <Button
+            android:id="@+id/OkAuthBut"
+            android:layout_width="11dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="on_OkClick"
+            android:text="@string/OkButton"
+            tools:text="@string/OkButton" />
+    </LinearLayout>
+</LinearLayout>
